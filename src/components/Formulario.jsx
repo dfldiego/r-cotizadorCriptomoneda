@@ -32,7 +32,7 @@ const Formulario = () => {
     ];
 
     // utilizar custom hook -> useMoneda
-    const [moneda, SelectMonedas, setMoneda] = useMoneda('Elige tu Moneda', '', MONEDAS);
+    const [moneda, SelectMonedas] = useMoneda('Elige tu Moneda', '', MONEDAS);
 
     return (
         <form>
