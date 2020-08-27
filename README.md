@@ -1,10 +1,20 @@
-Dependencias Instaladas:
+## Dependencias Instaladas:
 
 - @Emotion/core
 
 - @Emotion/styled
 
 - Axios
+
+## Teoria:
+**useMoneda.js**
+Un HOOK es una funcion.
+state -->tiene su propio state.
+Seleccionar --> Tiene su propio cuerpo
+setState --> una funcion que modifica el state
+const [state, setState] = useState(''); ---> muestra el state, funcion que modifica el state
+const Seleccionar = () => () ----> funcion que muestra en pantalla
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
