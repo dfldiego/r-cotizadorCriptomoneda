@@ -8,11 +8,12 @@
 
 ## Teoria:
 **useMoneda.js**
-Un HOOK es una funcion.
-state -->tiene su propio state.
-Seleccionar --> Tiene su propio cuerpo
-setState --> una funcion que modifica el state
-const [state, setState] = useState(''); ---> muestra el state, funcion que modifica el state
+
+Un HOOK es una funcion.<br />
+state -->tiene su propio state.<br />
+Seleccionar --> Tiene su propio cuerpo<br />
+setState --> una funcion que modifica el state<br />
+const [state, setState] = useState(''); ---> muestra el state, funcion que modifica el state<br />
 const Seleccionar = () => () ----> funcion que muestra en pantalla
 
 
